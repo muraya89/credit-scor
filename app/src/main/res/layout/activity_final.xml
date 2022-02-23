@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".Final">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="get your progress"
+        android:textAllCaps="true"
+        android:fontFamily="sans-serif-light"
+        android:textSize="15sp"
+        android:layout_above="@id/progress_circular"
+        android:layout_centerInParent="true"
+        android:layout_margin="50dp"
+        android:textColor="@color/white"/>
+
+    <ProgressBar
+        android:id="@+id/progress_circular"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/background"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:progress="35"/>
+
+    <Button
+        android:id="@+id/edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_circular"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginBottom="2dp"
+        android:text="25%" />
+
+    <Button
+        android:id="@+id/edittext1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_circular"
+        android:layout_marginTop="20dp"
+        android:layout_centerInParent="true"
+        android:text="50%" />
+
+    <Button
+        android:id="@+id/edittext2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/progress_circular"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="260dp"
+        android:layout_marginBottom="2dp"
+        android:text="75%" />
+
+
+</RelativeLayout>

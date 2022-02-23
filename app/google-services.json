@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "667338483737",
+    "firebase_url": "https://creditscore-65631.firebaseio.com",
+    "project_id": "creditscore-65631",
+    "storage_bucket": "creditscore-65631.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:667338483737:android:b116828351ebc47f",
+        "android_client_info": {
+          "package_name": "com.example.creditscore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "667338483737-vs7fibvuutiu94ljm1urseen29s1tv9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0bFVLFYgNJ5s5-K21ZIwmsUvSFGFV1HA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "667338483737-vs7fibvuutiu94ljm1urseen29s1tv9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
